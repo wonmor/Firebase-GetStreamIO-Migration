@@ -11,7 +11,11 @@ WORKDIR /app
 #npm install 을 위해, package.json과 package-lock.json을 먼저 copy해둠
 COPY ./server/package*.json /app/server/
 
+WORKDIR /app/server
+
 RUN npm install
+
+WORKDIR /app
 
 COPY ./server /app/server
 
