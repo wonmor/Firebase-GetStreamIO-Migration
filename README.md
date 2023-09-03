@@ -11,11 +11,11 @@ This server application is built using Express.js and is designed to integrate F
 
 ### API Endpoints
 
-### `GET /`
+### `GET https://firebase-getstreamio.apps.johnseong.com/`
 
 Returns a simple text response indicating that the server is running.
 
-### `POST /chat/addAllFirebaseUsersToStream`
+### `POST https://firebase-getstreamio.apps.johnseong.com/chat/addAllFirebaseUsersToStream`
 
 Adds all Firebase users to the GetStream chat service. It filters out the users that already exist in Stream and only adds the new users.
 
@@ -26,7 +26,7 @@ Adds all Firebase users to the GetStream chat service. It filters out the users 
 ### Sample Request
 
 ```
-POST /chat/addAllFirebaseUsersToStream
+POST https://firebase-getstreamio.apps.johnseong.com/chat/addAllFirebaseUsersToStream
 Content-Type: application/json
 
 {
