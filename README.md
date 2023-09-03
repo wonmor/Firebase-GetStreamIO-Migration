@@ -1,4 +1,4 @@
-# Firebase-GetStreamIO-Migration
+# Firebase-GetStreamIO-Migration-REST
 Syncs Firebase Authentication with GetStreamIO Chat Messaging.
 
 ---
