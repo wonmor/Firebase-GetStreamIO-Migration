@@ -1,7 +1,7 @@
 {
-  "name": "uc-irvine-classfinder-stream",
+  "name": "firebase-getstreamio-migration",
   "version": "1.0.0",
-  "description": "Helper REST API for UC Irvine ClassFinder's Community Feature.",
+  "description": "Syncs Firebase Authentication with GetStreamIO Chat Messaging.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
