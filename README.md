@@ -23,7 +23,7 @@ Adds all Firebase users to the GetStream chat service. It filters out the users 
 
 ## Example
 
-### Request Made
+### Sample Request
 
 ```
 POST /chat/addAllFirebaseUsersToStream
@@ -35,7 +35,7 @@ Content-Type: application/json
   "streamApiSecret": "<your_getstream_api_secret>"
 }
 ```
-### Example Response
+### Sample Response
 
 ```
 200 OK
