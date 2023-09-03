@@ -11,11 +11,11 @@ This server application is built using Express.js and is designed to integrate F
 
 ### API Endpoints
 
-**GET /**
+`**GET /**`
 
 Returns a simple text response indicating that the server is running.
 
-**POST /chat/addAllFirebaseUsersToStream**
+`**POST /chat/addAllFirebaseUsersToStream**`
 
 Adds all Firebase users to the GetStream chat service. It filters out the users that already exist in Stream and only adds the new users.
 
